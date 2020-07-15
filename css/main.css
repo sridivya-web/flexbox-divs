@@ -14,6 +14,7 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+
 }
 
 /*
@@ -101,30 +102,80 @@ body {
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+  background-color: black;
+   color:white;
 }
 
+h1 {
+
+  line-height: 100px;
+}
+
+p.about {
+
+  line-height: 40px;
+  font-size: 1.5em;
+}
+
+span{
+  font-family: 'Fondamento', cursive;
+}
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
-   font-weight: 700;
+   
    display: flex;
    justify-content: space-between;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding:20px;
   
 }
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+  font-size: 1.3em;
+  background-color: black;
+  padding:20px;
+  height: 250px;
   display: flex;
   width:30%;
   justify-content: center;
-  align-items: center;
+
+}
+.div-1 
+{
+    border-right: 1px solid white;
+
+} 
+
+.div-2 {
+   border-right: 1px solid white;
 }
 
+#links a {
 
+     font-family: "Source Sans Pro";
+      text-decoration:none; 
+      color:#c49075;
+      font-weight: normal;
+      font-size: 28px;
+}
 
+#links ul {
+
+      list-style: none;
+}
+#links ul li {
+
+       display: inline-block;
+}
+
+#links ul img {
+
+      font-size: 32px;
+      padding-right: 48px;
+}
 
 /* ==========================================================================
    Helper classes
